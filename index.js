@@ -12,7 +12,7 @@ server.on('request', function(request, response) {
     });
   } else {
     request.statusCode = 404;
-    response.write('<img src="https://openclipart.org/download/289230/404-stamp.svg"/>');
+    response.write('<img src="https://openclipart.org/download/289230/404-stamp.svg">');
     response.end();
   }
 });
